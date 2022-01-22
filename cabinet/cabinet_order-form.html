@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../assets/images/logo-img.svg">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Foxpapers</title>
+</head>
+<body>
+    <div class="page">
+        <div class="content">
+            <header class="header">
+                <div class="container">
+                    <div class="header-wrapper">
+                        <a class="header__logo-box" href="#">
+                            <img class="logo" src="../assets/images/logo-img.svg" width="40" height="55" alt="logo-image">
+                            <img class="logo-text" src="../assets/images/logo-text.svg" width="100" height="40" alt="foxpapers.com">
+                        </a>
+                        <nav class="header__menu">
+                            <ul class="header__menu-list">
+                                <li>
+                                    <a href="../cabinet_order-list.html">
+                                        My orders
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Balance $<span class="balance-sum">0.00</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="cabinet_personal-details.html">
+                                        My Discount
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="cabinet_my-refferal.html">
+                                        Referral program
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="cabinet_order-details.html">
+                                        Settings
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="mobile-btn-box">
+                                <a href="#" class="main-btn out-btn mobile">
+                                    Sign out
+                                </a>
+                            </div>
+                        </nav>
+                        <div class="header__btns">
+                            <a href="#" class="main-btn orange-btn">
+                                <img src="../assets/images/ico/order-ico.svg" alt="order icon">
+                                Order
+                            </a>
+                            <a href="#" class="main-btn out-btn">
+                                Sign out
+                            </a>
+                            <div class="hamburger" id="hamburger">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <section class="order-list order-form">
+                    <div class="container">
+                        <div class="order-form__title">
+                            <h3>
+                                Unpaid order editing
+                            </h3>
+                            <a href="#" class="main-btn refund-btn">
+                                Back to orders
+                            </a>
+                        </div>
+                        <div class="order-list__wrapper">
+                            <div class="order-list__body">
+                                <div class="form-item">
+                                    <form action="" class="order-form__form">
+                                        <div class="form-col-wrapp">
+                                            <div class="form-col">
+                                                <div class="form-group">
+                                                    <label class="form-group-label">
+                                                        Paper type
+                                                    </label>
+                                                    <select class="form-group-input">
+                                                        <option value="">Capstone project</option>
+                                                        <option value="">Capstone project1</option>
+                                                        <option value="">Capstone project2</option>
+                                                        <option value="">Capstone project2</option>
+                                                    </select>
+                                                    <p class="error"></p>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-group-label">
+                                                        Number of pages
+                                                    </label>
+                                                    <select class="form-group-input">
+                                                        <option value="">1 page / 300 words</option>
+                                                        <option value="">4 page / 400 words</option>
+                                                    </select>
+                                                    <p class="error"></p>
+                                                </div>
+                                                <div class="form-col-wrapp">
+                                                    <div class="form-col-xs radio-col">
+                                                        <div class="form-group">
+                                                            <label class="form-group-label">
+                                                                Spacing
+                                                            </label>
+                                                            <div class="form-group-input">
+                                                                <div class="radio-block">
+                                                                    <input type="radio" name="spacing" id="doubleSpaced">
+                                                                    <label class="form-group-label" for="doubleSpaced">
+                                                                        Double-spaced
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                            <p class="error"></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-col-xs radio-col">
+                                                        <div class="form-group">
+                                                            <label class="form-group-label"></label>
+                                                            <div class="form-group-input">
+                                                                <div class="radio-block">
+                                                                    <input type="radio" name="spacing" id="singlSpaced">
+                                                                    <label class="form-group-label" for="singlSpaced">
+                                                                        Single-spaced
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                            <p class="error"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-group-label">
+                                                        Number of slides 
+                                                    </label>
+                                                    <select class="form-group-input">
+                                                        <option value="">1 slide / 100 words</option>
+                                                        <option value="">2 slide / 200 words</option>
+                                                    </select>
+                                                    <p class="error"></p>
+                                                </div>
+                                            </div>
+                                            <div class="form-col">
+                                                <div class="form-group">
+                                                    <label class="form-group-label">
+                                                        Academic level
+                                                    </label>
+                                                    <select class="form-group-input">
+                                                        <option value="">Undergraduate</option>
+                                                        <option value="">Undergraduate1</option>
+                                                        <option value="">Undergraduate2</option>
+                                                        <option value="">Undergraduate3</option>
+                                                    </select>
+                                                    <p class="error"></p>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-group-label">
+                                                        Urgency
+                                                    </label>
+                                                    <select class="form-group-input">
+                                                        <option value="">3 days / Fri, Apr 23rd </option>
+                                                        <option value="">2 days / Fri, Apr 23rd </option>
+                                                        <option value="">1 days / Fri, Apr 23rd </option>
+                                                        <option value="">20 days / Fri, Apr 23rd </option>
+                                                    </select>
+                                                    <p class="error"></p>
+                                                </div>
+                                                <div class="form-col-wrapp">
+                                                    <div class="form-col-xs">
+                                                        <div class="form-group">
+                                                            <label class="form-group-label">
+                                                                Sources
+                                                            </label>
+                                                            <select class="form-group-input">
+                                                                <option value="">14</option>
+                                                                <option value="">15</option>
+                                                                <option value="">16</option>
+                                                                <option value="">17</option>
+                                                            </select>
+                                                            <p class="error"></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-col-xs">
+                                                        <div class="form-group">
+                                                            <label class="form-group-label">
+                                                                Format
+                                                            </label>
+                                                            <select class="form-group-input">
+                                                                <option value="">Chicago</option>
+                                                                <option value="">Chicago5</option>
+                                                                <option value="">Chicago6</option>
+                                                                <option value="">Chicago7</option>
+                                                            </select>
+                                                            <p class="error"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-group-label" for="preferredWriter">
+                                                        Preferred writer
+                                                    </label>
+                                                    <input class="form-group-input" type="text" id="preferredWriter" placeholder="Example: 1042">
+                                                    <p class="error">Please enter a valid name</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-group-label">
+                                                Subject
+                                            </label>
+                                            <select class="form-group-input">
+                                                <option value="">Medical science</option>
+                                                <option value="">Medical sciencet1</option>
+                                                <option value="">Medical science2</option>
+                                                <option value="">Medical science2</option>
+                                            </select>
+                                            <p class="error"></p>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-group-label">
+                                                Topic
+                                            </label>
+                                            <div class="form-group-input multiselect">
+                                                <span class="value">
+                                                    Case Study Analysis
+                                                </span>
+                                                <span class="count">
+                                                    0/150
+                                                </span>
+                                            </div>
+                                            <p class="error"></p>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-group-label" for="instructions">
+                                                Instructions
+                                            </label>
+                                            <textarea class="form-group-input" rows="11" placeholder="Please analyze the case study" id="instructions"></textarea>
+                                            <p class="error"></p>
+                                        </div>
+                                        <div class="add-file-btn">
+                                            <input type="file" name="files[]" id="uploadFileInput" class="upload-file__input" accept=".jpg, .jpeg, .png, .gif, .bmp, .doc, .docx, .xls, .xlsx, .txt, .tar, .zip, .7z, .7zip" multiple="">
+                                            <label class="upload-file__label" for="uploadFileInput">
+                                                <img class="upload-file__icon" src="../assets/images/ico/upload-file.svg" alt="add">
+                                                Upload your files here
+                                            </label>
+                                        </div>
+                                        <div class="form-col-wrapp">
+                                            <div class="form-col">
+                                                <div class="form-group">
+                                                    <div class="form-group-input filter-box">
+                                                        <div class="checkbox-block">
+                                                            <input class="form-group-input" type="checkbox" id="topWriter">
+                                                            <label for="topWriter">
+                                                                Top writer
+                                                            </label>
+                                                            <span class="top-medal active">
+                                                                <img src="../assets/images/ico/top-medal-ico.svg" alt="medal">
+                                                            </span>
+                                                        </div>
+                                                        <div class="filter-box__control">
+                                                            <span class="filter-box__val">
+                                                                +15%
+                                                            </span>
+                                                            <span class="tooltip">
+                                                                <img src="../assets/images/ico/tooltip-ico.svg" alt="tooltip">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="form-group-input filter-box">
+                                                        <div class="checkbox-block">
+                                                            <input class="form-group-input" type="checkbox" id="plagiarismReport">
+                                                            <label for="plagiarismReport">
+                                                                Plagiarism report
+                                                            </label>
+                                                        </div>
+                                                        <div class="filter-box__control">
+                                                            <span class="filter-box__val">
+                                                                $7.99
+                                                            </span>
+                                                            <span class="tooltip">
+                                                                <img src="../assets/images/ico/tooltip-ico.svg" alt="tooltip">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="form-group-input filter-box">
+                                                        <div class="checkbox-block">
+                                                            <input class="form-group-input" type="checkbox" id="initialDraft">
+                                                            <label for="initialDraft">
+                                                                Initial draft
+                                                            </label>
+                                                        </div>
+                                                        <div class="filter-box__control">
+                                                            <span class="filter-box__val">
+                                                                +10%
+                                                            </span>
+                                                            <span class="tooltip">
+                                                                <img src="../assets/images/ico/tooltip-ico.svg" alt="tooltip">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-col">
+                                                <div class="form-group">
+                                                    <div class="form-group-input filter-box">
+                                                        <div class="checkbox-block">
+                                                            <input class="form-group-input" type="checkbox" id=" digitalSources">
+                                                            <label for=" digitalSources">
+                                                                Digital sources
+                                                            </label>
+                                                        </div>
+                                                        <div class="filter-box__control">
+                                                            <span class="filter-box__val">
+                                                                $9.99
+                                                            </span>
+                                                            <span class="tooltip">
+                                                                <img src="../assets/images/ico/tooltip-ico.svg" alt="tooltip">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="form-group-input filter-box">
+                                                        <div class="checkbox-block">
+                                                            <input class="form-group-input" type="checkbox" id="onePageSummary">
+                                                            <label for="onePageSummary">
+                                                                One-page summary
+                                                            </label>
+                                                        </div>
+                                                        <div class="filter-box__control">
+                                                            <span class="filter-box__val">
+                                                                $11.99
+                                                            </span>
+                                                            <span class="tooltip">
+                                                                <img src="../assets/images/ico/tooltip-ico.svg" alt="tooltip">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="form-group-input filter-box">
+                                                        <div class="checkbox-block">
+                                                            <input class="form-group-input" type="checkbox" id="editorService">
+                                                            <label for="editorService">
+                                                                Editor’s service
+                                                            </label>
+                                                        </div>
+                                                        <div class="filter-box__control">
+                                                            <span class="filter-box__val">
+                                                                FREE
+                                                            </span>
+                                                            <span class="tooltip">
+                                                                <img src="../assets/images/ico/tooltip-ico.svg" alt="tooltip">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="right-column-wrapper">
+                                <div class="secure-checkout">
+                                    <div class="secure-checkout__top-box">
+                                        <div class="secure-checkout__top-box-item border-bot draft">
+                                            <p>
+                                                <span>
+                                                    Capstone Project
+                                                </span>
+                                                <span>
+                                                    Undergraduate
+                                                </span>
+                                            </p>
+                                            <a href="#" class="main-btn refund-btn">
+                                                Save draft
+                                            </a>
+                                        </div>
+                                        <div class="secure-checkout__top-box-item border-bot urgency">
+                                            <p>
+                                                1 page / double spaced
+                                            </p>
+                                            <p>
+                                                3 days / Fri, Apr 23rd
+                                            </p>
+                                        </div>
+                                        <div class="secure-checkout__top-box-item promo-box">
+                                            <div class="form-group">
+                                                <label class="form-group-label" for="promoCode">
+                                                    Promo code
+                                                </label>
+                                                <input class="form-group-input" type="text" id="promoCode" placeholder="Enter the promo here">
+                                                <p class="error">Please enter a valid name</p>
+                                            </div>
+                                        </div>
+                                        <div class="secure-checkout__total">
+                                            <span class="title">
+                                                TOTAL COST:
+                                            </span>
+                                            <span class="value">
+                                                $36.38
+                                            </span>
+                                        </div>
+                                        <div class="secure-checkout__top-box-item terms-box">
+                                            <div class="checkbox-block">
+                                                <input class="form-group-input" type="checkbox" id="terms">
+                                                <label for="terms">
+                                                    I agree to terms and conditions
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="main-btn green-btn">
+                                        Secure checkout
+                                    </a>
+                                    <a href="#" class="main-btn refund-btn">
+                                        Request estimation
+                                    </a>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-nav">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Privacy policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Terms of use
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+    
+            <script src="../assets/js/libs/jquery.min.js"></script>
+            <script src="../assets/js/main.js"></script>
+        </footer>
+    </div>
+        
+</body>
+</html>

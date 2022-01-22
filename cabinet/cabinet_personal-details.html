@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../assets/images/logo-img.svg">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Foxpapers</title>
+</head>
+<body>
+    <div class="page">
+        <div class="content">
+            <header class="header">
+                <div class="container">
+                    <div class="header-wrapper">
+                        <a class="header__logo-box" href="#">
+                            <img class="logo" src="../assets/images/logo-img.svg" width="40" height="55" alt="logo-image">
+                            <img class="logo-text" src="../assets/images/logo-text.svg" width="100" height="40" alt="foxpapers.com">
+                        </a>
+                        <nav class="header__menu">
+                            <ul class="header__menu-list">
+                                <li>
+                                    <a href="../cabinet_order-list.html">
+                                        My orders
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Balance $<span class="balance-sum">0.00</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="cabinet_personal-details.html">
+                                        My Discount
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="cabinet_my-refferal.html">
+                                        Referral program
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="cabinet_order-details.html">
+                                        Settings
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="mobile-btn-box">
+                                <a href="#" class="main-btn out-btn mobile">
+                                    Sign out
+                                </a>
+                            </div>
+                        </nav>
+                        <div class="header__btns">
+                            <a href="#" class="main-btn orange-btn">
+                                <img src="../assets/images/ico/order-ico.svg" alt="order icon">
+                                Order
+                            </a>
+                            <a href="#" class="main-btn out-btn">
+                                Sign out
+                            </a>
+                            <div class="hamburger" id="hamburger">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <section class="order-list personal-details">
+                    <div class="container">
+                        <div class="order-list__wrapper">
+                            <div class="order-list__body">
+                                <div class="form-item">
+                                    <h3>
+                                        <img src="../assets/images/ico/pers-details-ico.svg" width="14" height="17" alt="user">
+                                        Personal details
+                                    </h3>
+                                    <form action="" class="personal-details__form">
+                                        <div class="form-col-wrapp">
+                                            <div class="form-col">
+                                                <div class="form-group has-error">
+                                                    <label class="form-group-label" for="name">
+                                                        My name is
+                                                    </label>
+                                                    <input class="form-group-input" type="text" id="name" placeholder="Enter your name here">
+                                                    <p class="error">Please enter a valid name</p>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-group-label" for="phone">
+                                                        My phone number
+                                                    </label>
+                                                    <div class="form-group-input" id="phone">
+                                                        <div class="phone-select">
+                                                            <div class="select-box">
+                                                                <img class="flag-img" src="../assets/images/ico/us-flag.svg" width="32" height="17" alt="">
+                                                                <img class="arow-img" src="../assets/images/ico/arr-right.svg" alt="">
+                                                                <span>+1</span>
+                                                            </div>
+                                                            <div class="value-box">
+                                                                3455-345345-345345
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <p class="error"></p>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-group-label" for="contact">
+                                                        My name is
+                                                    </label>
+                                                    <select class="form-group-input" name="contact" id="contact">
+                                                        <option value="">Messages</option>
+                                                        <option value="">Messages</option>
+                                                        <option value="">Messages</option>
+                                                        <option value="">Messages</option>
+                                                    </select>
+                                                    <p class="error"></p>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-group-label" for="timeZone">
+                                                        My time zone is
+                                                    </label>
+                                                    <select class="form-group-input" name="timeZone" id="timeZone">
+                                                        <option value="">PST (GMT -7): LA, California, Idaho</option>
+                                                        <option value="">PST (GMT -7): LA, California, Idaho</option>
+                                                        <option value="">PST (GMT -7): LA, California, Idaho</option>
+                                                        <option value="">PST (GMT -7): LA, California, Idaho</option>
+                                                    </select>
+                                                    <p class="error"></p>
+                                                </div>
+                                            </div>
+                                            <div class="form-col">
+                                                <div class="form-group">
+                                                    <label class="form-group-label" for="email">
+                                                        My email is
+                                                    </label>
+                                                    <input class="form-group-input" type="email" id="email" placeholder="Enter your email here">
+                                                    <p class="error">Please enter a valid email</p>
+                                                </div>
+                                                <div class="form-group checkbox-group">
+                                                    <p class="form-group-label">
+                                                        Send me emails about:
+                                                    </p>
+                                                    <div class="checkbox-block-wrapp">
+                                                        <div class="checkbox-block">
+                                                            <input class="form-group-input" type="checkbox" id="orderUpdates">
+                                                            <label for="orderUpdates">
+                                                                Order updates
+                                                            </label>
+                                                        </div>
+                                                        <div class="checkbox-block">
+                                                            <input class="form-group-input" type="checkbox" id="specialOffers">
+                                                            <label for="specialOffers">
+                                                                Promo campaings and special offers
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <p class="error"></p>
+                                                </div>
+                                                <div class="form-group checkbox-group">
+                                                    <p class="form-group-label">
+                                                        Notifications:
+                                                    </p>
+                                                    <div class="checkbox-block-wrapp">
+                                                        <div class="checkbox-block">
+                                                            <input class="form-group-input" type="checkbox" id="browserNotific">
+                                                            <label for="browserNotific">
+                                                                Enable browser notifications
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <p class="error"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="form-item">
+                                    <h3>
+                                        <img src="../assets/images/ico/pass-ico.svg" width="14" height="17" alt="user">
+                                        Change my password
+                                    </h3>
+                                    <form action="" class="personal-details__form">
+                                        <div class="form-col-wrapp">
+                                            <div class="form-col">
+                                                <div class="form-group">
+                                                    <label class="form-group-label" for="oldPassword">
+                                                        Old password
+                                                    </label>
+                                                    <input class="form-group-input" type="password" id="oldPassword" placeholder="Enter current password">
+                                                    <p class="error">Please enter a current old password</p>
+                                                </div>
+                                                <div class="form-group has-error">
+                                                    <label class="form-group-label" for="newPassword">
+                                                        New password
+                                                    </label>
+                                                    <input class="form-group-input" type="password" id="newPassword" placeholder="Enter new password">
+                                                    <p class="error">Please enter a valid new password</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="submit">Update password</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="delete-acc-box">
+                    <a href="#" class="acc-del">
+                        Delete my account
+                    </a>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Privacy policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Terms of use
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+    
+            <script src="../assets/js/libs/jquery.min.js"></script>
+            <script src="../assets/js/main.js"></script>
+        </footer>
+    </div>
+
+</body>
+</html>
